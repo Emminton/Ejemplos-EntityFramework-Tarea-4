@@ -54,7 +54,7 @@ namespace Ejercicios_EntityFrameworCore.Ejemplos
                 {
                     CourseId = 0,
                     studentId = 1,
-                    CourseName = "Math"
+                    CourseName = "materias"
 
                 };
                 context.Courses.Add(auxCourse);
@@ -163,15 +163,15 @@ namespace Ejercicios_EntityFrameworCore.Ejemplos
                 var modifiedStudent1 = new Studen()
                 {
                     StudentId = 1,
-                    FirstName = "Bill",
-                    LastName = "Madison"
+                    FirstName = "jerson",
+                    LastName = "gutierrez"
                 };
 
                 var modifiedStudent2 = new Studen()
                 {
                     StudentId = 2,
                     FirstName = "Steve",
-                    LastName = "Perez"
+                    LastName = "mendez"
                 };
 
                 List<Studen> modifiedStudents = new List<Studen>()
